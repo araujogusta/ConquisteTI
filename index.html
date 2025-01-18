@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConquisteTI</title>
+    <!-- Link do CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">ConquisteTI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#conteudo">Conteúdo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <div class="container">
+
+        <topic-card title="Antes de começar"
+            description="Este tópico reúne conteúdos essenciais para quem está iniciando no mundo da programação. Aqui, você aprenderá as bases necessárias para começar sua jornada com confiança, incluindo conceitos fundamentais, dicas de como estudar de forma eficiente e estratégias para se manter motivado e focado ao longo do caminho.">
+
+            <topic-item href="https://www.youtube.com/watch?v=BTENKdRVS2U" bs-color="bg-success">
+                O mínimo que você precisa saber antes de começar a programar - Código Fonte TV
+            </topic-item>
+            <topic-item href="https://www.youtube.com/watch?v=sx4hAHhO9CY" bs-color="bg-success">
+                Conhecimentos básicos para iniciantes em Programação  - Akitando
+            </topic-item>
+            <topic-item href="https://www.youtube.com/watch?v=oUPaJxk6TZ0&t=3485s" bs-color="bg-success">
+                Guia definitivo de aprendendo a aprender - Akitando
+            </topic-item>
+        </topic-card>
+
+        <topic-card title="Lógica de Programação e Algoritmos"
+            description="Neste tópico, você aprenderá os fundamentos da lógica de programação e como criar algoritmos para resolver problemas de forma eficiente. Ele aborda conceitos básicos como variáveis, estruturas condicionais, loops e a construção de fluxogramas. Com esses conhecimentos, você desenvolverá o raciocínio lógico necessário para avançar em qualquer linguagem de programação.">
+            <topic-item href="https://www.youtube.com/watch?v=gMxQ8vxH9Vk&t=384s" bs-color="bg-success">
+                Introdução a lógica de programação - Attekita Dev
+            </topic-item>
+            <topic-item href="https://www.youtube.com/watch?v=Ptbk2af68e8&list=PLeuwJul7tRBfsm7sxnR5_7wG3KvaQ6oOt"
+                bs-color="bg-primary">
+                Curso de JavaScript - Curso em Vídeo
+            </topic-item>
+            <topic-item href="https://biblioteca.rocketseat.com.br/javascript/primeiros-passos/abertura-13"
+                bs-color="bg-primary">
+                Curso de JavaScript - Biblioteca Rocketseat
+            </topic-item>
+            <topic-item href="https://www.youtube.com/watch?v=E4DBTqgxHGM&list=PLx4x_zx8csUg_AxxbVWHEyAJ6cBdsYc0T"
+                bs-color="bg-primary">
+                Curso de Javascript Completo, Profissional e Moderno  - CFB Cursos
+            </topic-item>
+        </topic-card>
+
+        <topic-card title="Versionamento de Código"
+            description="Neste tópico, você aprenderá sobre a importância do versionamento de código e como utilizar ferramentas como o Git para gerenciar e controlar alterações nos seus projetos. Com conteúdos que vão desde os conceitos básicos até práticas recomendadas, você entenderá como colaborar em equipe, registrar o histórico de mudanças e manter seus projetos organizados de forma profissional.">
+            <topic-item href="https://www.youtube.com/watch?v=ts-H3W1uLMM" bs-color="bg-success">
+                GIT: Minicurso para Você sair do zero - Código Fonte TV
+            </topic-item>
+            <topic-item href="https://www.youtube.com/watch?v=pyM5QLS2h6M&t=584s" bs-color="bg-success">
+                Aprenda Git e Github do zero - Fernanda Kipper
+            </topic-item>
+            <topic-item href="https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA"
+                bs-color="bg-primary">
+                Curso de Git e Github - Curso em Vídeo
+            </topic-item>
+            <topic-item href="https://biblioteca.rocketseat.com.br/git-e-github/git/abertura-2" bs-color="bg-primary">
+                Curso de Git e Github - Biblioteca Rocketseat
+            </topic-item>
+            <topic-item href="https://www.youtube.com/watch?v=6Czd1Yetaac" bs-color="bg-primary">
+                Entendendo Git - Akitando
+            </topic-item>
+            <topic-item href="https://www.youtube.com/watch?v=6OokP-NE49k" bs-color="bg-primary">
+                Usando Git direito - Akitando
+            </topic-item>
+        </topic-card>
+
+        <topic-card title="Desenvolvimento Web"
+            description="Este tópico introduz você ao mundo do desenvolvimento web, abordando as tecnologias fundamentais para criar páginas e aplicações modernas. Aqui, você aprenderá sobre HTML, CSS e JavaScript, além de conceitos como consumo de APIs e os primeiros passos com frameworks e bibliotecas populares. O objetivo é fornecer as bases necessárias para construir interfaces interativas e conectadas à web.">
+            <topic-item href="https://biblioteca.rocketseat.com.br/html/fundamentos-de-html/abertura-3"
+                bs-color="bg-success">
+                Fundamentos de HTML - Biblioteca Rocketseat
+            </topic-item>
+            <topic-item href="https://biblioteca.rocketseat.com.br/css/fundamentos-de-css/abertura-7"
+                bs-color="bg-success">
+                Fundamentos de CSS - Biblioteca Rocketseat
+            </topic-item>
+            <topic-item href="https://biblioteca.rocketseat.com.br/css/fundamentos-de-css/abertura-7"
+                bs-color="bg-success">
+                Curso de HTML e CSS - Curso em Vídeo
+            </topic-item>
+        </topic-card>
+
+        <topic-card title="Banco de Dados" description="Este tópico apresenta os fundamentos de banco de dados, essenciais para armazenar, organizar e acessar informações de maneira eficiente. Você aprenderá conceitos básicos de modelagem de dados, linguagem SQL e como trabalhar com MySQL, um dos sistemas de gerenciamento de banco de dados mais populares. Ideal para quem deseja entender como gerenciar dados em aplicações web e projetos diversos.">
+            <topic-item href="https://www.youtube.com/watch?v=Ofktsne-utM&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r" bs-color="bg-primary">
+                Curso de MySQL - Curso em Vídeo
+            </topic-item>
+            <topic-item href="https://www.youtube.com/watch?v=adIIAEc3Q04&list=PLx4x_zx8csUgQUjExcssR3utb3JIX6Kra" bs-color="bg-primary">
+                Curso de MySQL - CFB Cursos
+            </topic-item>
+        </topic-card>
+
+        <topic-card title="Desenvolvimento Backend"
+            description="Neste tópico, você será introduzido ao desenvolvimento backend, explorando como criar e gerenciar a lógica e os serviços que sustentam as aplicações web. Aprenda o que são APIs, os conceitos de REST e RESTful, e inicie sua jornada com Node.js, uma das ferramentas mais populares para desenvolvimento backend. Este tópico é ideal para quem deseja entender como funciona o lado do servidor e conectar suas aplicações ao mundo real.">
+            <topic-item href="https://www.youtube.com/watch?v=vGuqKIRWosk" bs-color="bg-success">
+                API // Dicionário do Programador - Código Fonte TV
+            </topic-item>
+            <topic-item href="https://www.youtube.com/watch?v=XN705pQeoyU&list=PLx4x_zx8csUjFC41ev2qX5dnr-0ThpoXE"
+                bs-color="bg-success">
+                Curso de Node.js - CFB Cursos
+            </topic-item>
+        </topic-card>
+    </div>
+
+
+    <!-- Link do JavaScript do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="static/js/topic-card.js"></script>
+    <script src="static/js/topic-item.js"></script>
+</body>
+
+</html>
