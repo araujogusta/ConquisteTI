@@ -1,4 +1,4 @@
-# 👨‍💻 CoonquisteTI
+# 👨‍💻 ConquisteTI
  ![Notebook](img/Notebook.png)
 
 Observando a lacuna de conhecimentos que muitos programadores enfrentam, decidi criar um repositório para ajudar a preenchê-la. Ele abrange desde dicas essenciais para se manter focado e motivado até fundamentos importantes da programação, como a lógica por trás de todo código, ajudando você a conquistar seu espaço na área de TI.
