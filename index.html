@@ -17,32 +17,45 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#inicio">Início</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#conteudo">Conteúdo</a>
-                    </li>
-                </ul>
-            </div>
         </div>
     </nav>
 
     <!-- Conteúdo Principal -->
-    <div class="container">
+    <div class="container pt-4">
 
         <topic-card title="Antes de começar"
             description="Este tópico reúne conteúdos essenciais para quem está iniciando no mundo da programação. Aqui, você aprenderá as bases necessárias para começar sua jornada com confiança, incluindo conceitos fundamentais, dicas de como estudar de forma eficiente e estratégias para se manter motivado e focado ao longo do caminho.">
 
-            <topic-item href="https://www.youtube.com/watch?v=BTENKdRVS2U" bs-color="bg-success">
+            <h5>Como estão organizadas as aulas?</h5>
+            <li class="d-flex align-items-center">
+                <span class="d-inline-block indicator bg-success"></span>
+                <p class="m-0">Marcadores em verde são obrigatórios</p>
+            </li>
+            <li class="d-flex align-items-center">
+                <span class="d-inline-block indicator bg-primary"></span>
+                <p class="m-0">Marcadores em azul são opções dentro do tópico a ser estudado, então você pode escolher
+                    apenas um deles para seguir </p>
+            </li>
+            <li class="d-flex align-items-center">
+                <span class="d-inline-block indicator bg-warning"></span>
+                <p class="m-0">Marcadores em amarelo são opcionais, porém posteriormente, depois que já tiver
+                    adquirido alguma habilidade é altamente recomendável que seja visto</p>
+            </li>
+
+            <hr>
+
+            <h5>Sempre com as mãos na massa</h5>
+            <li>Manter o foco no desenvolvimento de projetos é fundamental durante o aprendizado de programação, pois é por meio da prática que o conhecimento se consolida e ganha significado. Ao transformar conceitos teóricos em soluções reais, você desenvolve habilidades técnicas, fortalece seu raciocínio lógico e aprende a lidar com os desafios que surgem no processo. Mais do que isso, projetos oferecem uma visão concreta do progresso alcançado, reforçando a motivação e construindo um portfólio que será essencial para conquistar oportunidades no mercado. Lembre-se: cada linha de código escrita em um projeto é um passo à frente na sua jornada como programador!</li>
+
+            <hr>
+            
+            <topic-item href="https://www.youtube.com/watch?v=BTENKdRVS2U" bs-color="bg-primary">
                 O mínimo que você precisa saber antes de começar a programar - Código Fonte TV
             </topic-item>
-            <topic-item href="https://www.youtube.com/watch?v=sx4hAHhO9CY" bs-color="bg-success">
-                Conhecimentos básicos para iniciantes em Programação  - Akitando
+            <topic-item href="https://www.youtube.com/watch?v=sx4hAHhO9CY" bs-color="bg-primary">
+                Conhecimentos básicos para iniciantes em Programação - Akitando
             </topic-item>
-            <topic-item href="https://www.youtube.com/watch?v=oUPaJxk6TZ0&t=3485s" bs-color="bg-success">
+            <topic-item href="https://www.youtube.com/watch?v=oUPaJxk6TZ0&t=3485s" bs-color="bg-warning">
                 Guia definitivo de aprendendo a aprender - Akitando
             </topic-item>
         </topic-card>
@@ -62,16 +75,16 @@
             </topic-item>
             <topic-item href="https://www.youtube.com/watch?v=E4DBTqgxHGM&list=PLx4x_zx8csUg_AxxbVWHEyAJ6cBdsYc0T"
                 bs-color="bg-primary">
-                Curso de Javascript Completo, Profissional e Moderno  - CFB Cursos
+                Curso de Javascript Completo, Profissional e Moderno - CFB Cursos
             </topic-item>
         </topic-card>
 
         <topic-card title="Versionamento de Código"
             description="Neste tópico, você aprenderá sobre a importância do versionamento de código e como utilizar ferramentas como o Git para gerenciar e controlar alterações nos seus projetos. Com conteúdos que vão desde os conceitos básicos até práticas recomendadas, você entenderá como colaborar em equipe, registrar o histórico de mudanças e manter seus projetos organizados de forma profissional.">
-            <topic-item href="https://www.youtube.com/watch?v=ts-H3W1uLMM" bs-color="bg-success">
+            <topic-item href="https://www.youtube.com/watch?v=ts-H3W1uLMM" bs-color="bg-primary">
                 GIT: Minicurso para Você sair do zero - Código Fonte TV
             </topic-item>
-            <topic-item href="https://www.youtube.com/watch?v=pyM5QLS2h6M&t=584s" bs-color="bg-success">
+            <topic-item href="https://www.youtube.com/watch?v=pyM5QLS2h6M&t=584s" bs-color="bg-primary">
                 Aprenda Git e Github do zero - Fernanda Kipper
             </topic-item>
             <topic-item href="https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA"
@@ -81,35 +94,33 @@
             <topic-item href="https://biblioteca.rocketseat.com.br/git-e-github/git/abertura-2" bs-color="bg-primary">
                 Curso de Git e Github - Biblioteca Rocketseat
             </topic-item>
-            <topic-item href="https://www.youtube.com/watch?v=6Czd1Yetaac" bs-color="bg-primary">
+            <topic-item href="https://www.youtube.com/watch?v=6Czd1Yetaac" bs-color="bg-warning">
                 Entendendo Git - Akitando
             </topic-item>
-            <topic-item href="https://www.youtube.com/watch?v=6OokP-NE49k" bs-color="bg-primary">
+            <topic-item href="https://www.youtube.com/watch?v=6OokP-NE49k" bs-color="bg-warning">
                 Usando Git direito - Akitando
             </topic-item>
         </topic-card>
 
         <topic-card title="Desenvolvimento Web"
             description="Este tópico introduz você ao mundo do desenvolvimento web, abordando as tecnologias fundamentais para criar páginas e aplicações modernas. Aqui, você aprenderá sobre HTML, CSS e JavaScript, além de conceitos como consumo de APIs e os primeiros passos com frameworks e bibliotecas populares. O objetivo é fornecer as bases necessárias para construir interfaces interativas e conectadas à web.">
-            <topic-item href="https://biblioteca.rocketseat.com.br/html/fundamentos-de-html/abertura-3"
-                bs-color="bg-success">
-                Fundamentos de HTML - Biblioteca Rocketseat
+            <topic-item href="https://biblioteca.rocketseat.com.br" bs-color="bg-primary">
+                Fundamentos de HTML e CSS - Biblioteca Rocketseat
             </topic-item>
             <topic-item href="https://biblioteca.rocketseat.com.br/css/fundamentos-de-css/abertura-7"
-                bs-color="bg-success">
-                Fundamentos de CSS - Biblioteca Rocketseat
-            </topic-item>
-            <topic-item href="https://biblioteca.rocketseat.com.br/css/fundamentos-de-css/abertura-7"
-                bs-color="bg-success">
+                bs-color="bg-primary">
                 Curso de HTML e CSS - Curso em Vídeo
             </topic-item>
         </topic-card>
 
-        <topic-card title="Banco de Dados" description="Este tópico apresenta os fundamentos de banco de dados, essenciais para armazenar, organizar e acessar informações de maneira eficiente. Você aprenderá conceitos básicos de modelagem de dados, linguagem SQL e como trabalhar com MySQL, um dos sistemas de gerenciamento de banco de dados mais populares. Ideal para quem deseja entender como gerenciar dados em aplicações web e projetos diversos.">
-            <topic-item href="https://www.youtube.com/watch?v=Ofktsne-utM&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r" bs-color="bg-primary">
+        <topic-card title="Banco de Dados"
+            description="Este tópico apresenta os fundamentos de banco de dados, essenciais para armazenar, organizar e acessar informações de maneira eficiente. Você aprenderá conceitos básicos de modelagem de dados, linguagem SQL e como trabalhar com MySQL, um dos sistemas de gerenciamento de banco de dados mais populares. Ideal para quem deseja entender como gerenciar dados em aplicações web e projetos diversos.">
+            <topic-item href="https://www.youtube.com/watch?v=Ofktsne-utM&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r"
+                bs-color="bg-primary">
                 Curso de MySQL - Curso em Vídeo
             </topic-item>
-            <topic-item href="https://www.youtube.com/watch?v=adIIAEc3Q04&list=PLx4x_zx8csUgQUjExcssR3utb3JIX6Kra" bs-color="bg-primary">
+            <topic-item href="https://www.youtube.com/watch?v=adIIAEc3Q04&list=PLx4x_zx8csUgQUjExcssR3utb3JIX6Kra"
+                bs-color="bg-primary">
                 Curso de MySQL - CFB Cursos
             </topic-item>
         </topic-card>
@@ -125,7 +136,6 @@
             </topic-item>
         </topic-card>
     </div>
-
 
     <!-- Link do JavaScript do Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
